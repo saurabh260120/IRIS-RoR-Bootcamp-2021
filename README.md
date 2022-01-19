@@ -1,3 +1,5 @@
 # IRIS-RoR-Bootcamp-2021
 
-This repository contains all resources for IRIS RoR Bootcamp 2021.
+## [Installation Guide for Ruby and Rails](/INSTALL_RUBY.md)
+
+## [Essential Git](/ESSENTIAL_GIT.md)
