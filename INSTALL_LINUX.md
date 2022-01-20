@@ -8,7 +8,7 @@ There are multiple ways of installing a Linux distro:
 
 ## Dual Boot
 
-_Dual boooting_ installs multiple operating systems - in this case,
+_Dual booting_ installs multiple operating systems - in this case,
 Windows and Ubuntu(or any other Linux distro). 
 Every time you power on your device, you can decide
 the operating system you want to use.
