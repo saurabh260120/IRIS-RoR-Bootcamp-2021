@@ -33,10 +33,10 @@ All participants will be given a week to finish basic setup by installing Linux,
 Next, we will delve deeper into _Routing_, _Controllers_ and _Views_, and apply some of the concepts we've learnt before. This will be followed by an assignment where we build a simple portfolio website.
 
 ### Week 4 - Models
-In this week, we will learn more about persisting data using Databases, using _Models_. In the assignment, we will work on storing data, to the website built in the previous week.
+In this week, we will learn more about persisting data using _Databases_ & _Models_. In the assignment, we will work on storing data, to the website built in the previous week.
 
 ### Week 5 - Authentication and Authorization
 In the final week of this Bootcamp, we will take a look at what Authentication and Authorization is, and how to implement it in Rails. The assignment for this week will add more features to the previous week's assignment that applies concepts learnt this week.
 
 ## Contact
-In case doubts related to the Bootcamp, feel free to reach out to the mentors on the **#doubts** channel in the MS Team.
+In case of doubts related to the Bootcamp, feel free to reach out to the mentors on the **#doubts** channel in the MS Team.
