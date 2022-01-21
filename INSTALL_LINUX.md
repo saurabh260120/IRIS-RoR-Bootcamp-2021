@@ -2,14 +2,13 @@
 
 If you are using Windows, we recommend you to install and use the LTS version of Ubuntu (or) any other Linux distro of your choice.
 There are multiple ways of installing a Linux distro:
-- Dual boot
+- Dual Boot
 - Virtual Machine
-- Windows Subsystem for Linux(WSL)
+- Windows Subsystem for Linux (WSL)
 
 ## Dual Boot
 
-_Dual booting_ installs multiple operating systems - in this case,
-Windows and Ubuntu(or any other Linux distro). 
+_Dual booting_ installs multiple operating systems - in this case, Windows and Ubuntu (or any other Linux distro). 
 Every time you power on your device, you can decide
 the operating system you want to use.
 

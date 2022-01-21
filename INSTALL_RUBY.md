@@ -1,25 +1,35 @@
 # Install Ruby & Rails
 
-### In case you are using Mac OS,follow below commands
-#### Install Xcode tools
+## In case you are using Mac OS, follow below commands
+### Install Xcode tools
 
 Install Xcode from the MacApp Store if you haven't already.
 [Refer this in case of any issues](https://stackoverflow.com/questions/9329243/xcode-install-command-line-tools)
-#### Install HomeBrew
+
+### Install HomeBrew
+
 HomeBrew is a package manager for Mac and helps organise the packages you install.
-Enter the following command in the terminal to install HomeBrew if you haven't already
-`/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
-#### Install `gnupg`
+
+Enter the following command in the terminal to install HomeBrew if you haven't already -
+```bash
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+```
+
+### Install `gnupg`
+
 ```bash
 brew install gnupg
 ```
 
 ## Below steps are common to Linux and MacOS
+
 Install [Ruby Version Manager (RVM)](http://rvm.io/rvm/install).
 You can install RVM by running the following commands:
+
 ```bash
 gpg --keyserver hkp://pool.sks-keyservers.net --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3 7D2BAF1CF37B13E2069D6956105BD0E739499BDB
 ```
+
 > In case you encounter any issues please check this [link](https://rvm.io/rvm/security)
 
 ```bash
@@ -41,7 +51,7 @@ rvm install ruby-2.7.2
 rvm --default use 2.7.2
 ```
 
-- Create and use a gemset `session_<n>` where `n` is the session number.
+- Create and use a [gemset](https://codecabulary.launchacademy.com/learn-ruby/gemsets) `session_<n>` where `n` is the session number.
 
 ```bash
 rvm gemset create session_0

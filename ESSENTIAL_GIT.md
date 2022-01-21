@@ -12,7 +12,7 @@ Atlassian tutorials: https://www.atlassian.com/git/tutorials
 ## Setting Up Local Workspace
 
 - Install [Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git).
-- Once you are done setting up git, you will need to fork this repo & work on your forked repo. You can follow the [official docs](https://docs.github.com/en/free-pro-team@latest/github/getting-started-with-github/fork-a-repo) to learn how to fork a repo.
+- Once you are done setting up Git, you will need to fork this repo & work on your forked repo. You can follow the [official docs](https://docs.github.com/en/free-pro-team@latest/github/getting-started-with-github/fork-a-repo) to learn how to fork a repo.
 
 - Clone and change directory into the repository
 
@@ -32,7 +32,7 @@ cd IRIS-RoR-Bootcamp-2021
 git checkout -b session_1_abhishek_kumar
 ```
 
-> A _branch_ represents an independent line of development. Thus,
+> A [_branch_](https://www.atlassian.com/git/tutorials/using-branches) represents an independent line of development. Thus,
 > working in branches will help seperate your work from other
 > participant's work as well as different sessions from each other.
 
@@ -72,3 +72,7 @@ through https://github.com/IRIS-NITK/IRIS-RoR-Bootcamp-2021/pulls
 > When you create a pull request, you are _requesting_ another developer
 > (i.e. Bootcamp mentors) review your work and integrate with the rest
 > of code.
+
+## Conflicts
+
+_Merge conflicts_ are common when collaborating using Git. If you ever come across merge conflicts, follow [this tutorial to _resolve_ them](https://www.atlassian.com/git/tutorials/using-branches/merge-conflicts).
