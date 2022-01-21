@@ -39,4 +39,4 @@ In this week, we will learn more about persisting data using _Databases_ & _Mode
 In the final week of this Bootcamp, we will take a look at what Authentication and Authorization is, and how to implement it in Rails. The assignment for this week will add more features to the previous week's assignment that applies concepts learnt this week.
 
 ## Contact
-In case of doubts related to the Bootcamp, feel free to reach out to the mentors on the **#doubts** channel in the MS Team.
+In case of doubts related to the Bootcamp, feel free to reach out to the mentors on the [**#doubts**](https://teams.microsoft.com/l/channel/19%3a6e5ce5031c594c34927026726a750f12%40thread.tacv2/%255BRuby%2520on%2520Rails%255D%2520Doubts?groupId=ebcdbf1c-6b25-48f4-9dfc-9f5e3666cc00&tenantId=36e917dc-1abe-43f4-b189-f92196a6b4ad) channel in the MS Team.
