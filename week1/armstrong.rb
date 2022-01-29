@@ -1,6 +1,6 @@
 def armstrong_number(n)
  if n<0
-    puts false
+    return false
   else
   #finding number of digit...
   x=n
@@ -13,16 +13,16 @@ def armstrong_number(n)
 # finding summation of number of digit raised to power # of numbers no. of digit
   comp=n
   num=0
-  while comp!=0
+  while comp>0
    rem=comp%10
    num=num+rem**dig
    comp=comp/10
   end
 # comparing and returning result
   if n==num
-    puts true
+    return true
   else
-    puts false
+    return false
   end
 end
 end
