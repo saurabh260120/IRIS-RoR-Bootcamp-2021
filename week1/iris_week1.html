@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <style>
+        *{
+             text-decoration: none;
+             font-family: sans-serif;
+         }
+         h2{
+             color: #555;
+         }
+        body{
+            margin: 0 7%;
+            margin-bottom: 50px;
+        }
+        .head_cont{
+            display:flex;
+           align-items: center;
+           margin-top: 50px;
+    
+           /* background-color: cornflowerblue; */
+        }
+        .box{
+            width: 50%;
+            /* border: 2px solid black; */
+        }
+        .box .image{
+            /* display: block;
+           width: 50%;
+           margin-left:auto;
+           margin-right:auto; */
+           display: flex;
+           justify-content: space-around;
+        }
+        .aboutme h1{
+              text-align: center;
+        }
+        table{
+            border-collapse: collapse;
+            width: 100%;
+            /* background-color: blue; */
+            
+        }
+        td{
+           border : 1px solid #888;
+           font-size: 1.5rem;
+           text-align: center;
+        }
+        .movies h1{
+           text-align: center;
+        }
+        ul{
+            font-size: 1.4rem;
+            color: #222;
+        }
+        .footer{
+            background:url(iris_week1_image/bg_footer.jpg)no-repeat;
+            /* background-size: cover; */
+            background-position: center;
+            color: white;
+        }
+        .footcontainer{
+            display:flex;
+            justify-content:space-between;
+            width:100%;
+           
+        }
+        .footbox{
+            width:33%;
+            text-align: center;
+            padding: 0 15px;
+        }
+        .footbox a{
+          color: white;
+        }
+        .copyright h3{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header class="head_cont" id="intro">
+        <div class="box">
+         <h1>Hi . . . .</h1>
+         <h1>I am Saurabh Kumar Maurya</h1>
+         <h2>2nd Year Undergrad student @ NITK</h2>
+        </div>
+        <div class="box">
+            <div class="image">
+           <img src="iris_week1_image\IMG20220120154824-modified.png" alt="abcd" width=80% height= 80%>
+           </div>
+        </div>
+
+    </header>
+    <section class="aboutme" id="about">
+        <h1>About Me</h1>
+        <div class="table">
+            <table>
+                <tr>
+                    <td>Age </td>
+                    <td>20 </td>
+                </tr>
+                <tr>
+                    <td>City </td>
+                    <td>Basti </td>
+                </tr>
+                <tr>
+                    <td>State </td>
+                    <td>Uttar Pradesh</td>
+                </tr>
+                <tr>
+                    <td>Branch </td>
+                    <td>CSE</td>
+                </tr>
+                <tr>
+                    <td>Mo.No. </td>
+                    <td>9555811757</td>
+                </tr>
+            </table>
+        </div>
+        <br>
+    </section>
+
+    <section class="movies" id="fm">
+            <h1>Favourite Movies</h1>
+            <ul>
+                <li>URI</li>
+                <li>Chhichhore</li>
+                <li>3 Idiots</li>
+                <li>Bahubali</li>
+                <li>Hera Pheri</li>
+            </ul>
+    </section>
+
+    <footer class="footer">
+    <div class="footcontainer">
+        <div class="footbox">
+            <h3>About</h3>
+            <p>I am second year undergrad student at Nitk in cse branch. I love to learn. I am currently learning web development. I would love to work on webdevelopment project.</p>
+        </div>
+        <div class="footbox">
+             <h3>Quick link</h3>
+             
+              <p><a href="#intro">Intro</a></p>
+            <p>  <a href="#fm">Favourite Movies</a></p>
+               <p> <a href="#about">About</a></p>
+
+        </div>
+        <div class="footbox">
+             <h3>Contact Me</h3>
+             <p>Linkedin</p>
+             <p>Instagram</p>
+             <p>Whatsapp</p>
+             <P>Mo. no.</P>
+        </div>
+    </div>
+     <div class="copyright">
+         <h3>All rights reserved. &copy Saurabh Kumar Maurya</h3>
+     </div>
+
+    </footer>
+    
+</body>
+</html>
