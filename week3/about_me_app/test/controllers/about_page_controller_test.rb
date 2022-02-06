@@ -36,7 +36,14 @@ class AboutPageControllerTest < ActionDispatch::IntegrationTest
 
   test "get about json as xml" do
     get about_json_url, format: :xml
-    assert_response 415 # Unsupported Media Type
+    assert_response 400 # Bad Request
+    assert_equal "invalid request format", response.body.strip.downcase 
+  end
+
+  test "get about json as html" do
+    get about_json_url, format: :html
+    assert_response 400 # Bad Request
+    assert_equal "invalid request format", response.body.strip.downcase
   end
 
   test "check for form partial" do
