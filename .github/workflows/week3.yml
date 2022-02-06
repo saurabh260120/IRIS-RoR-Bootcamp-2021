@@ -27,7 +27,7 @@ jobs:
       - name: Install Ruby
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: 2.7
+          ruby-version: 2.7.2
           working-directory: week3/about_me_app
           bundler-cache: true
       
@@ -37,4 +37,4 @@ jobs:
 
       - name: Rails Test
         working-directory: week3/about_me_app
-        run: rails test
+        run: bundle exec rails test
